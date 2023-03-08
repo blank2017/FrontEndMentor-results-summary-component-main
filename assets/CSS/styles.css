@@ -93,8 +93,9 @@ main {
     color: var(--neutral-light-lavender);
 }
 
-.Result h3 {
+.Result span {
     font-size: 2rem;
+    font-weight: var(--font-weight-bold);
     color: var(--neutral-white);
 }
 
