@@ -84,7 +84,7 @@ main {
     background: linear-gradient(180deg, var(--gurdients-circle-violet-blue) 0%, var(--gurdients-circle-persian-blue) 100%);
 
 }
-.result_display h1{
+.result_display .display_number{
     font-size: 7rem;
     color: var(--neutral-white);
 }
@@ -110,7 +110,7 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 27rem;
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 .content {
@@ -123,6 +123,7 @@ main {
 }
 .summary .title {
     font-size: 1.5rem;
+    margin-top: 1.5rem;
     color: var(--neutral-light-dark-gray-blue);
 }
 
@@ -200,6 +201,7 @@ main {
 @media screen and (max-width: 375px ) {
     main {
         flex-direction: column;
+        height: 100vh;
     }
     .Result {
         width: 100%;
@@ -209,6 +211,8 @@ main {
         border-bottom-left-radius: 4rem;
     }
     .summary {
+        display: flex;
+        align-items: center;
         width: 100%;
         border-radius: 0;
     }
